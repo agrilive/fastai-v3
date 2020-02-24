@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-3dtP9wFNqBkzghovMtyhF6ckl1mD76s'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['01 Real Estate Agent', '04 Financial Planner', '05 Economist', '02 Stock Broker', '06 Politician', '08 Entrepreneur', '07 Journalist', '03 Banker', '09 Divorce', '10 Corruption', '12 Critical Illness', '14 Illness', '11 Vacation', '13 Accident', '15 Baby', '16-Retrenchment', '17 Pay Raise', '20 Natural Disaster', '21 Interest Rate Rises', '30 Property Market Crash', '22 Interest Rate Falls', '23 Government Raises Tax', '29 Property Bubble', '25 Partisan Politics', '24 Government Lowers Tax', '26 Political Turmoil', '28 Stock Fever', '27 Debt Crisis', '31 Stock Market Crash', '36 Information Overload', '35 Land Rezoning', '34 Credit rating Downgrade', '18 Hot Money', '37 New Technology', '19 Government Bailout', '32 Inflation', '33 Stock Panic', '45 Property', '44 Stock', '40 Convertible Bond', '46 Bond', '39 Undeveloped Land', '41 Junk Bond', '43 Dividend Stock', '42 Growth Stock', '38 Hotel', '48 Insurance', '47 Trust Fund']
 path = Path(__file__).parent
 
 app = Starlette()
